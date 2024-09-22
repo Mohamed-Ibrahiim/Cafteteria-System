@@ -3,7 +3,7 @@ if ($_SESSION['permission'] == 1):?>
     <nav id="navbar" class="navbar py-3 w-100  mt-1 d-none d-lg-block">
     <div class="  d-flex  justify-content-between ">
         <div class="ms-5 h6 fw-bold">
-            <a href="../order/create-order.php" class="text-white text-decoration-none  "><small class="text-white  mx-2">Home</small></a>
+            <a href="../Login/home.php" class="text-white text-decoration-none  "><small class="text-white  mx-2">Home</small></a>
             <a href="../product/table.php" class="text-white text-decoration-none  "><small class="text-white  mx-2">Products</small></a>
             <a href="../user/alluser.php" class="text-white text-decoration-none  "><small class="text-white  mx-2">Users</small></a>
             <a href="../category/table.php" class="text-white text-decoration-none  "><small class="text-white  mx-2">Category</small></a>

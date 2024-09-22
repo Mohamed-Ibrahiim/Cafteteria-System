@@ -16,7 +16,8 @@ if ($_SESSION["login"]){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-<div class="content">
+    <div class="content" style="margin-top:-50px">
+    <img src="login.jpg" style="border-radius: 50%;" width="250px" height="170px" alt="">
     <div class="text">
         Login
     </div>
@@ -40,6 +41,10 @@ if ($_SESSION["login"]){
         <div class="sign-up">
             Not registered
             <a href="#">signup now </a>
+        </div>
+        <div class="sign-up">
+            Back to home
+            <a  href="home.php"> Home Page </a>
         </div>
 
     </form>
